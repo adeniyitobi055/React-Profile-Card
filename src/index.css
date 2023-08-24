@@ -40,8 +40,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border-radius: 10% 10% 10% 10%;
+  border-radius: 25% 25% 25% 25%;
   justify-content: flex-start;
+}
+
+.skills::after {
+  gap: 5px;
 }
 
 .skill-list {
